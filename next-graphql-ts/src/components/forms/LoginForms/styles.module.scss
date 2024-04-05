@@ -1,0 +1,99 @@
+@import "../../../assests/styles/abstarcts/mixins_media";
+
+.SignInForm {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 1px solid var(--ap-primary-200);
+  border-radius: 4px;
+  padding: 0 40px;
+
+  @include phones() {
+    max-width: 90vw;
+  }
+
+  .FormSubmitButton, .FormSubmitOtpButton{
+    min-width: 286px;
+    height: 55px;
+  }
+  .FormSubmitOtpButton{
+    min-width: 295px;
+  }
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.FormContent {
+  margin-bottom: 50px;
+}
+
+.FormSubmitContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+
+  &:last-child{
+    margin-bottom: 47px;
+  }
+}
+
+.BackButton{
+  margin-right: 10px;
+}
+// PASSWORD FORM
+.ForgotPassword{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  .ForgotPasswordButton{
+    text-align: center;
+    font: normal normal normal 16px/19px var(--ap-app-font-family);
+    letter-spacing: 0;
+    color: var(--ap-secondary-400);
+  }
+}
+
+
+// OTP FORM
+.ItemFormContent {
+  margin-bottom: 0;
+}
+
+.OtpFieldError{
+  margin-bottom: 10px;
+}
+
+.ItemFormSubmitContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.ResentOtpContainer, .ResentOtpContainerWithError{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 38px;
+}
+
+.ResentOtpContainerWithError{
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.ResentOtp, .ResentOtpWithError{
+  text-align: center;
+  font: normal normal normal 16px/19px var(--ap-app-font-family);
+  letter-spacing: 0;
+  color: var(--ap-secondary-400);
+}

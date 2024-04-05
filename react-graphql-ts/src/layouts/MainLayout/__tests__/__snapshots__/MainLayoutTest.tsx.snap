@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainLayoutTest snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bcXHqe hFNikj"
+  >
+    <section
+      class="ant-layout main-layout"
+    >
+      <header
+        class="ant-layout-header layout-header"
+      >
+        <img
+          alt="pokedex"
+          class="layout-logo"
+          src="[object Object]"
+        />
+        <h1
+          class="layout-title"
+        >
+          Pokedex
+        </h1>
+      </header>
+      <main
+        class="ant-layout-content layout-content"
+      >
+        <div>
+          test
+        </div>
+      </main>
+      <footer
+        class="ant-layout-footer layout-footer"
+      >
+        ©2022 Created by Vlad
+      </footer>
+    </section>
+  </div>
+</DocumentFragment>
+`;

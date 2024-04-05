@@ -1,0 +1,33 @@
+.SubmitButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+  padding: 20px 70px;
+  background: var(--ap-primary-400) 0 0 no-repeat padding-box;
+  border-radius: 4px;
+  border: 1px solid var(--ap-primary-400);
+  cursor: pointer;
+
+  &:hover{
+    background: transparent linear-gradient(180deg, #126AED 0%, #0554CB 100%) 0 0 no-repeat padding-box;
+  }
+
+  &:active{
+    background: #0249B2 0 0 no-repeat padding-box;
+  }
+
+  &:disabled{
+    opacity: .5;
+  }
+
+}
+
+.SubmitButtonTitle {
+  text-align: left;
+  font: normal normal bold 16px/16px var(--ap-app-font-family);
+  font-family: var(--ap-app-font-family);
+  letter-spacing: 0.42px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}

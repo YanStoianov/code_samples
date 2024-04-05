@@ -1,0 +1,30 @@
+@import "src/assests/styles/abstarcts/mixins_media";
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  padding: 11px 50px 11px 140px;
+  @include phones() {
+    padding: 11px 0 11px 0;
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+.FooterLeft {
+  display: flex;
+  gap: 50px;
+}
+
+.FooterCopyright {
+  text-align: left;
+  font: normal normal 300 14px/18px var(--ap-app-font-family);
+  font-family: var(--ap-app-font-family);
+  letter-spacing: 0;
+  color: #000000;
+}

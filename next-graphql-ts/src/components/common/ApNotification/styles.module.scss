@@ -1,0 +1,48 @@
+.Snackbar {
+}
+
+.ApNotification,
+.ApNotificationError {
+  background-color: #20272fcc;
+  border-radius: 10px;
+  padding: 22px 20px;
+  max-width: 300px;
+}
+
+.ApNotificationTransparent {
+  background-color: #20272f99;
+}
+
+.ApNotificationError {
+  background-color: #f63333cc;
+}
+
+.ApNotificationMessage,
+.ApNotificationMessageError {
+  text-align: left;
+  font: normal normal 500 18px/22px var(--ap-app-font-family);
+  letter-spacing: 0;
+  color: #ffffff;
+  padding: 0;
+  word-break: break-word;
+}
+
+.ApNotificationMessageError {
+  color: white;
+}
+
+.ApNotificationAction,
+.ApNotificationActionError {
+  button {
+    text-align: left;
+    font: normal normal bold 16px/16px var(--ap-app-font-family);
+    letter-spacing: 0.48px;
+    color: var(--ap-primary-300);
+  }
+}
+
+.ApNotificationActionError {
+  button {
+    color: white;
+  }
+}

@@ -1,0 +1,50 @@
+mutation logIn($User: LoginInput!) {
+    logIn(input: $User) {
+        access_token
+        expires_in
+        refresh_token
+        user {
+            first_name
+            last_name
+            config {
+                background_color
+            }
+            profile {
+                name
+                id
+                thumbnail
+                url
+            }
+            id
+            members {
+                id
+                tname
+                lname
+                mid
+                logo{
+                    id
+                    url
+                    thumbnail
+                }
+                stores{
+                    id
+                    name
+                    localization {
+                        currency_symbol
+                        currency_decimal
+                    }
+                    region{
+                        id
+                        region_name
+                    }
+                }
+                member_settings{
+                    products{
+                        net_price
+                        recipe
+                    }
+                }
+            }
+        }
+    }
+}

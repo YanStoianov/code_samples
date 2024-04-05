@@ -1,0 +1,39 @@
+@import "src/assests/styles/abstarcts/mixins_media";
+
+.LogOut{
+  display: flex;
+  flex-direction: column;
+  max-width: 432px;
+
+  @include phones() {
+    max-width: 90vw;
+  }
+}
+
+.LogOutHeader{
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+.LogOutHeaderTitle{
+  margin-bottom: 0;
+  color: var(--ap-secondary-500);
+  text-align: left;
+  font: normal normal bold 18px/22px var(--ap-app-font-family);
+  font-family: var(--ap-app-font-family);
+  letter-spacing: 0;
+}
+
+.LogOutContent{
+  text-align: center;
+  font: normal normal 300 18px/22px var(--ap-app-font-family);
+  font-family: var(--ap-app-font-family);
+  letter-spacing: 0;
+  color: var(--ap-secondary-500);
+  margin-bottom: 35px;
+}
+
+.LogOutHeaderLogoutButtonContainer{
+  display: flex;
+  justify-content: center;
+}

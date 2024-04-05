@@ -1,0 +1,33 @@
+@import "src/assests/styles/abstarcts/mixins_media";
+
+.SignUpSection{
+  margin-top: 20px;
+  border: 1px solid var(--ap-primary-200);
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border-radius: 4px;
+  padding: 25px 18px 30px 25px;
+  max-width: 475px;
+
+  @include phones() {
+    max-width: 90vw;
+  }
+}
+
+.SignUpSectionHeader{
+  text-align: left;
+  font: normal normal bold 18px/22px var(--ap-app-font-family);
+  letter-spacing: 0;
+  color: var(--ap-secondary-500);
+  margin-bottom: 20px;
+}
+
+.SignUpButton{
+  margin-right: 2px;
+}
+
+.SignUpSectionContent{
+  text-align: left;
+  font: normal normal 300 18px/22px var(--ap-app-font-family);
+  letter-spacing: 0;
+  color: var(--ap-secondary-500);
+}

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchInputTest snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bcXHqe ejzTqd"
+  >
+    <button
+      aria-checked="true"
+      class="ant-switch ant-switch-checked"
+      role="switch"
+      type="button"
+    >
+      <div
+        class="ant-switch-handle"
+      />
+      <span
+        class="ant-switch-inner"
+      />
+    </button>
+    <div>
+      test
+    </div>
+  </div>
+</DocumentFragment>
+`;

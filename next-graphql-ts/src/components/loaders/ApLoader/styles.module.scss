@@ -1,0 +1,39 @@
+.ApLoader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.ApLoaderAbsolute {
+  position: absolute;
+}
+
+.ApLoaderContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 107px;
+  height: 107px;
+  background: white;
+  box-shadow: 0 3px 6px #7395b229;
+  border-radius: 50%;
+  opacity: 1;
+
+  &:hover {
+    background: rgba(32, 39, 47, 0.2);
+  }
+}
+
+.ApLoaderLabel {
+  position: relative;
+  top: 40px;
+}
